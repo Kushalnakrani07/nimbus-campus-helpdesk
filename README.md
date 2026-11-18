@@ -54,3 +54,6 @@ All data files use strictly synthetic test data (no PII, credentials, or product
 - **MCP Python SDK (`FastMCP`)**: [https://github.com/modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk)
 - **Anthropic Claude Code Documentation**: [https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview)
 - **Git Directory Tracking Conventions**: [https://git-scm.com/docs/gitignore](https://git-scm.com/docs/gitignore)
+
+## Skill Evaluation Suite
+This branch introduces automated pytest fixtures for timetable-helper skill.
