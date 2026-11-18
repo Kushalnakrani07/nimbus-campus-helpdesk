@@ -1,0 +1,15 @@
+batch_id,day_of_week,course_code,course_name,instructor,start_time,end_time,room,class_type
+CSE-2026-A,Monday,CS301,Data Structures & Algorithms,Prof. Alan Turing,09:00,10:30,Hall-101,Lecture
+CSE-2026-A,Monday,CS304,Operating Systems,Prof. Barbara Liskov,10:45,12:15,Hall-101,Lecture
+CSE-2026-A,Monday,CS309,AI Tools & Prompt Eng,Dr. Claude Shannon,13:30,15:00,Lab-302,Practical
+CSE-2026-A,Tuesday,CS305,Database Management Systems,Prof. Edgar Codd,09:00,10:30,Hall-102,Lecture
+CSE-2026-A,Tuesday,CS301-L,Data Structures Lab,Prof. Alan Turing,10:45,12:45,Lab-201,Practical
+CSE-2026-A,Wednesday,CS304,Operating Systems,Prof. Barbara Liskov,09:00,10:30,Hall-101,Lecture
+CSE-2026-A,Wednesday,CS308,Computer Networks,Prof. Vint Cerf,10:45,12:15,Hall-101,Lecture
+CSE-2026-A,Thursday,CS309,AI Tools & Prompt Eng,Dr. Claude Shannon,09:00,10:30,Hall-102,Lecture
+CSE-2026-A,Thursday,CS308-L,Networks Lab,Prof. Vint Cerf,11:00,13:00,Lab-204,Practical
+CSE-2026-A,Friday,CS305,Database Management Systems,Prof. Edgar Codd,10:00,11:30,Hall-102,Lecture
+CSE-2026-A,Friday,CS310,Technical Seminar & Ethics,Prof. Grace Hopper,14:00,15:30,Auditorium-B,Seminar
+CSE-2026-B,Monday,CS305,Database Management Systems,Prof. Edgar Codd,09:00,10:30,Hall-103,Lecture
+CSE-2026-B,Monday,CS301,Data Structures & Algorithms,Prof. Alan Turing,10:45,12:15,Hall-103,Lecture
+CSE-2026-B,Wednesday,CS309,AI Tools & Prompt Eng,Dr. Claude Shannon,14:00,15:30,Lab-302,Practical

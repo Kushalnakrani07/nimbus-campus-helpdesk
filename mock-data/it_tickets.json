@@ -1,0 +1,63 @@
+{
+  "system": "Nimbus ITSM Core",
+  "generated_at": "2026-11-18T08:00:00Z",
+  "total_records": 4,
+  "tickets": [
+    {
+      "ticket_id": "TCK-1001",
+      "created_at": "2026-11-17T09:15:00Z",
+      "requester_id": "USER-MOCK-901",
+      "requester_role": "undergraduate_student",
+      "requester_email": "student01@test.nimbus.example.edu",
+      "category": "Network & Connectivity",
+      "priority": "medium",
+      "status": "in-progress",
+      "subject": "Unable to authenticate with Nimbus-Secure-WiFi from Mac laptop",
+      "description": "Getting continuous certificate prompt error when joining Nimbus-Secure-WiFi in West Residence Hall Building A.",
+      "assigned_team": "Tier-1 Network Ops",
+      "resolution_notes": null
+    },
+    {
+      "ticket_id": "TCK-1002",
+      "created_at": "2026-11-17T11:42:00Z",
+      "requester_id": "USER-MOCK-902",
+      "requester_role": "graduate_assistant",
+      "requester_email": "assistant02@test.nimbus.example.edu",
+      "category": "Account Access & MFA",
+      "priority": "high",
+      "status": "open",
+      "subject": "Lost phone / Duo MFA push not receiving for campus portal",
+      "description": "Replaced phone over weekend. Need backup bypass codes or registration reset for campus single sign-on.",
+      "assigned_team": "Identity & Access Management",
+      "resolution_notes": null
+    },
+    {
+      "ticket_id": "TCK-1003",
+      "created_at": "2026-11-16T14:20:00Z",
+      "requester_id": "USER-MOCK-903",
+      "requester_role": "faculty",
+      "requester_email": "faculty03@test.nimbus.example.edu",
+      "category": "Classroom Technology",
+      "priority": "low",
+      "status": "resolved",
+      "subject": "HDMI projector flickering in Hall C-102",
+      "description": "Projector signal intermittently drops when connecting via lectern HDMI cable.",
+      "assigned_team": "AV Support",
+      "resolution_notes": "Replaced worn HDMI patch cable on lectern. Video signal tested stable at 1080p 60Hz."
+    },
+    {
+      "ticket_id": "TCK-1004",
+      "created_at": "2026-11-18T07:45:00Z",
+      "requester_id": "USER-MOCK-904",
+      "requester_role": "undergraduate_student",
+      "requester_email": "student04@test.nimbus.example.edu",
+      "category": "Printing Services",
+      "priority": "low",
+      "status": "open",
+      "subject": "Print quota balance not reflecting top-up",
+      "description": "Added $10 to PaperCut print balance via student portal 2 hours ago but balance displays $0.00.",
+      "assigned_team": "Student Print Services",
+      "resolution_notes": null
+    }
+  ]
+}

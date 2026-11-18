@@ -1,0 +1,17 @@
+{
+  "catalog_id": "nimbus-official/campus-helpdesk",
+  "name": "Nimbus Campus Helpdesk Plugin",
+  "version": "1.0.0",
+  "kind": "plugin",
+  "publisher": "Nimbus Labs",
+  "short_description": "Comprehensive academic helpdesk: timetable lookup, fee tracking, and campus policies via verified Skills and MCP.",
+  "repository": "https://github.com/nimbus-labs/campus-helpdesk",
+  "documentation": "https://docs.nimbus.example.edu/plugins/helpdesk",
+  "tags": [
+    "education",
+    "helpdesk",
+    "timetable",
+    "mcp"
+  ],
+  "entrypoint": "./plugin.json"
+}

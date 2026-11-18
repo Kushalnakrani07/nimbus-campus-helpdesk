@@ -1,0 +1,8 @@
+{
+  "name": "timetable",
+  "description": "Look up scheduled courses and rooms for a batch",
+  "argument_hint": "<BATCH_ID> [DAY]",
+  "handler_type": "skill_invocation",
+  "target_skill": "timetable-helper",
+  "template": "Please check the timetable for batch $1 on $2."
+}

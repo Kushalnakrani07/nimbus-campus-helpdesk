@@ -1,0 +1,25 @@
+{
+  "name": "campus-helpdesk",
+  "version": "1.0.0",
+  "description": "Unified campus services plugin for Nimbus Labs students and faculty, bundling timetable triage, IT support, and MCP integration.",
+  "author": {
+    "name": "Nimbus Labs Engineering Team",
+    "email": "helpdesk-dev@nimbus.example.edu"
+  },
+  "skills": [
+    "../skill/timetable-helper"
+  ],
+  "commands": [
+    {
+      "name": "timetable",
+      "description": "Quickly inspect batch class schedules and faculty lecture halls",
+      "definition": "./commands/timetable.json"
+    }
+  ],
+  "hooks": {
+    "pre_tool_call": "./hooks/block_protected_writes.py"
+  },
+  "mcp_servers": {
+    "nimbus-core": "./.mcp.json"
+  }
+}

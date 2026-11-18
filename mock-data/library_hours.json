@@ -1,0 +1,38 @@
+{
+  "facility_name": "Nimbus Labs Central Memorial Library",
+  "timezone": "America/New_York",
+  "effective_term": "Fall Semester 2026",
+  "regular_schedule": {
+    "monday": { "open": "07:30", "close": "23:00" },
+    "tuesday": { "open": "07:30", "close": "23:00" },
+    "wednesday": { "open": "07:30", "close": "23:00" },
+    "thursday": { "open": "07:30", "close": "23:00" },
+    "friday": { "open": "07:30", "close": "20:00" },
+    "saturday": { "open": "09:00", "close": "18:00" },
+    "sunday": { "open": "10:00", "close": "22:00" }
+  },
+  "service_desk_hours": {
+    "weekdays": { "open": "08:30", "close": "18:00" },
+    "weekends": { "open": "11:00", "close": "16:00" }
+  },
+  "special_schedules": [
+    {
+      "event": "Midterm Examination Week",
+      "start_date": "2026-10-12",
+      "end_date": "2026-10-23",
+      "hours": "24 hours open (Valid Nimbus Campus ID required after 22:00)"
+    },
+    {
+      "event": "Thanksgiving Recess",
+      "start_date": "2026-11-26",
+      "end_date": "2026-11-29",
+      "hours": "Closed"
+    }
+  ],
+  "study_room_booking_policy": {
+    "max_duration_hours": 3,
+    "advance_booking_days": 7,
+    "reservation_portal": "https://library.nimbus.example.edu/rooms",
+    "instant_checkin_grace_period_minutes": 15
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "campus": "Nimbus Labs North Campus",
+  "last_updated": "2026-11-18T08:00:00Z",
+  "overall_status": "operational",
+  "networks": [
+    {
+      "ssid": "Nimbus-Secure-WiFi",
+      "auth_type": "WPA3-Enterprise (802.1X)",
+      "status": "operational",
+      "target_audience": "Students, Faculty, Staff"
+    },
+    {
+      "ssid": "Nimbus-Guest-Web",
+      "auth_type": "Captive Portal",
+      "status": "operational",
+      "target_audience": "Campus Visitors"
+    },
+    {
+      "ssid": "Nimbus-IoT-Devices",
+      "auth_type": "Pre-Shared Key (MAC Whitelisted)",
+      "status": "operational",
+      "target_audience": "Lab Equipment & Smart Devices"
+    }
+  ],
+  "zones": [
+    {
+      "zone_id": "ZONE-LIB-01",
+      "location": "Central Library - Floors 1 to 3",
+      "status": "operational",
+      "connected_clients": 412,
+      "ap_total": 24,
+      "ap_active": 24,
+      "incident_notes": "None"
+    },
+    {
+      "zone_id": "ZONE-SCI-02",
+      "location": "Science & Engineering Complex - Block B",
+      "status": "degraded",
+      "connected_clients": 185,
+      "ap_total": 16,
+      "ap_active": 12,
+      "incident_notes": "Switch firmware upgrade in progress on 2nd floor; partial roaming latency expected."
+    },
+    {
+      "zone_id": "ZONE-DORM-03",
+      "location": "West Residence Halls (Buildings A & B)",
+      "status": "operational",
+      "connected_clients": 630,
+      "ap_total": 40,
+      "ap_active": 40,
+      "incident_notes": "None"
+    },
+    {
+      "zone_id": "ZONE-STU-04",
+      "location": "Student Commons & Cafeteria",
+      "status": "operational",
+      "connected_clients": 290,
+      "ap_total": 18,
+      "ap_active": 18,
+      "incident_notes": "None"
+    }
+  ]
+}
