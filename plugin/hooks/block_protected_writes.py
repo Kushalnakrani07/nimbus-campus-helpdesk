@@ -10,7 +10,7 @@ import re
 
 PROTECTED_PATHS = [
     r"mock-data/.*",
-    r".*\.mcp\.json$",
+    r".*\.mcp\.json$", r".*\.env$",
     r"skill/.*/data/.*\.csv$"
 ]
 
